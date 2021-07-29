@@ -2,7 +2,9 @@ schema_version: 1
 
 name: ibmcom/websphere-liberty-s2i
 version: 20.0.0.12-java8
-from: ibmcom/websphere-liberty:20.0.0.12-full-java8-openj9-ubi
+#from: ibmcom/websphere-liberty:20.0.0.12-full-java8-openj9-ubi
+from: registry.ford.com/jchen45/websphere-liberty:20.0.0.12-full-java8-openj9-ubi
+
 description: "IBM WebSphere Liberty UBI image with OpenJDK8"
 labels:
     - name: io.k8s.description
